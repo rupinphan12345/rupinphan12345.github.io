@@ -106,6 +106,7 @@ header{
     left: 50%;
     transform: translate(-45%, -55%);  /*lấy điểm gốc chính là chính giữa*/
     width: 1140px;
+    font-family: 'Patua One', cursive;
 }
 
 .column {
