@@ -1,5 +1,124 @@
-body,
-html{
-background-color: red;
-color: white;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px; /*mac dinh la 16px */
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+/* ----------------------------Header---------------------------------- */
+
+.logo{
+    width: 150px;
+    float: left;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none; 
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+    transition: border-bottom 0.5s ; /*đọ trể khi hiển thị hết là 0.5s*/
+    padding: 3px 0px; /*khoảng cách giữa gạch dưới và botton */
+}
+.main-nav li {
+    display: inline-block; /*hiển thị trên cùng 1 dòng*/
+    margin-right: 40px; 
+}
+
+
+.main-nav li a:active, /*khi di chuyển chuột qua*/
+.main-nav li a:hover{   /*khi click vào*/
+    border-bottom: 5px solid #ffffff; /*tạo đường gạch dưới*/
+}
+
+/* ========================RESABLE CONPANION ==================*/
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+h1{
+    text-transform: uppercase; /*in hoa*/
+    font-size: 250%;    /*cở chữ*/
+    font-weight: 110%;  /*độ dày của chữ*/
+    letter-spacing: 2px;    /* khoảng cách các kí tự*/
+    word-spacing: 7px;  /*khoảng cách các chữ*/
+    color: white;   
+    line-height: 75px;  /*khoảng cách giữ các hàng*/
+    margin-bottom: 30px;
+}
+
+.btn{
+    text-decoration: none; /*nó chịu ảnh hưởng của class row và heading main box nên cho về none rồi xử lí*/
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    border-radius: 30px;  /*tạo góc tròn cho botton*/
+    margin: 10px;
+    width: 190px;
+    display: inline-block ;  /*thẻ a mặc định hk cho chỉnh wight và height nên chuyển về block*/
+    text-align: center;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #d35400;
+}
+
+/* =============================================================== */
+header{
+    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("/a/img/background.jpg"); /*hòa trộn màu*/
+    background-size: cover;  /*bao trùm những đoạn html đã code*/
+    background-position: center;  /*căng giữa*/
+    height: 100vh;
+    /* bao trùm 100% màn hình */
+    background-attachment: fixed; /*lướt trên background*/
+}
+
+/* .row{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+
+.heading-main-box{
+    margin-top: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);  /*lấy điểm gốc chính là chính giữa*/
+    width: 1140px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background: center;
+  }
