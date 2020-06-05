@@ -86,7 +86,7 @@ h1{
 
 /* =============================================================== */
 header{
-    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("/a/img/background.jpg"); /*hòa trộn màu*/
+    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("./background.jpg"); /*hòa trộn màu*/
     background-size: cover;  /*bao trùm những đoạn html đã code*/
     background-position: center;  /*căng giữa*/
     height: 100vh;
