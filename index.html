@@ -8,12 +8,13 @@
     </title>
     <link href="/redirect?Id=HhwCEYIrCJMyzQaOUKiwNn9%2fWCbkaR3O32XUy4zYquBiLHBEihYvtMuNlHWJcI13DJaARJd53%2bUZSjsGlpwlkA%3d%3d" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="/grid.css"> 
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script src="https://kit.fontawesome.com/f118b23bdf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <a href="#"><img class="logo" src="./logo.png" alt="logo"></a>
+        <a href="#"><img class="logo" src="/a/img/logo.png" alt="logo"></a>
         <ul class="main-nav">
             <li><a href="#">How Client Think</a></li>
             <li><a href="#">About</a></li>
@@ -26,7 +27,7 @@
         <div class="row">
             <div class="heading-main-box">
                 <h1>
-                    Dinh Nhat Phan  <br> Industrial University <br> of Ho Chi Minh City <br>
+                    Phan Dinh Nhat <br> Industrial Univercity  <br> Of Ho Chi Minh City 
                 </h1>
                 <a href="#" class="btn">Tell Me More</a>
                 <a href="#" class="btn">Join Us</a>
@@ -36,38 +37,72 @@
 
     <section class="about-section">
         <div class="row">
-            <h2>About us</h2>
+            <h2>About Us</h2>
             <p class="p-long">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse harum deleniti, explicabo alias quam eveniet enim facilis ullam consequuntur maxime, velit, culpa dicta placeat quaerat rerum unde fugiat sed nisi ea. Nulla, velit quia at veniam nisi dolore excepturi voluptate quas. Modi necessitatibus sequi maiores tempore minima facilis quibusdam magni illo nam. Officia laborum magni earum aut dignissimos et aspernatur inventore, sed odio. Labore pariatur temporibus explicabo accusantium quas reiciendis atque, voluptatum modi ipsum, neque, distinctio obcaecati deleniti. Rerum at tempora sequi labore, nesciunt sapiente ducimus! Nemo ipsa quibusdam aliquid reiciendis, architecto aspernatur, numquam eligendi, tenetur perspiciatis ea recusandae!
+                  voluptatum modi ipsum, neque, distinctio obcaecati deleniti. Rerum at tempora sequi labore, nesciunt sapiente ducimus! Nemo ipsa quibusdam aliquid reiciendis, architecto aspernatur, numquam eligendi, tenetur perspiciatis ea recusandae!
             </p>
         </div>
-        <div class="row">
-            <div class="column">
-                <img style="width: 250px;" src="/a/img/image1.jpg" alt="picture1">
-                <p class="picture-title">
-                    Image 1
+       <div class="row">
+            <div class="col span_1_of_4 about-picture">
+                    <img src="./image1.jpg" alt="picture 1" width="100%" height="100%">
+                
+                <div class="picture-title" style="text-align: center;">
+                    Picture 1
+                </div>
+            </div>
+            <div class="col span_1_of_4 about-picture">
+                <img src="./image2.jpg" alt="picture 2 " width="100%">
+                <div class="picture-title" style="text-align: center;">
+                    Picture 2
+                </div>
+            </div>
+            <div class="col span_1_of_4 about-picture">
+                <img src="./image3.jpg" alt="picture 3" width="100%">
+                <div class="picture-title" style="text-align: center;">
+                    Picture 3
+                </div>
+            </div>
+            <div class="col span_1_of_4 about-picture">
+                <img src="./image4.jpg" alt="picture 4" width="100%">
+                <p class="picture-title"">
+                    Picture 4
                 </p>
             </div>
-            <div class="column">
-                <img width="250px" src="a/img/image2.jpg" alt="picture2">
-                <p class="picture-title">
-                    Image 2
-                </p>
-            </div>
-            <div class="column">
-                <img width="250px" src="a/img/image3.jpg" alt="picture3">
-                <p class="picture-title">
-                    Image 3
-                </p>
-            </div>
-            <div class="column">
-                <img width="250px" src="a/img/image4.jpg" alt="picture4">
-                <p class="picture-title">
-                    Image 4
-                </p>
-            </div>
-        </div>
+       </div>
+    </section>
 
+    <section class="product-section">
+        <h2> Products</h2>
+        <div class="row">
+            <div class="col span_1_of_3 product-box">
+                <h3>Pronunciation class</h3>
+                <p>19$ <span> /month</span></p>
+                <ul>
+                    <li><i class="fas fa-check-square"></i> Native voices</li>
+                    <li><i class="fas fa-check"></i>Master IPA</li>
+                </ul>
+                <a href="#" class="btn"> Join us</a>
+            </div>
+            <div class="col span_1_of_3 product-box">
+                <h3>Speaking class</h3>
+                <p>25$ <span> /month</span></p>
+                <ul>
+                    <li><i class="fas fa-check-square"></i> Native Speaking </li>
+                    <li><i class="fas fa-check"></i>Speaking naturally</li>
+                </ul>
+                <a href="#" class="btn"> Join us</a>
+            </div>
+            <div class="col span_1_of_3 product-box">
+                <h3>Listening class</h3>
+                <p>25$ <span> /month</span></p>
+                <ul>
+                    <li><i class="fas fa-check-square"></i> Native speech</li>
+                    <li><i class="fas fa-check"></i>Hearing English clearly</li>
+                </ul>
+                <a href="#" class="btn"> Join us</a>
+            </div>
+
+        </div>
     </section>
 </body>
 </html>
