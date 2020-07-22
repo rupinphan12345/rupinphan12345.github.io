@@ -66,6 +66,66 @@ h1{
     margin-bottom: 30px;
 }
 
+h2{
+    color: #d35400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 180%;
+}
+h2::after{
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: #f5a36c;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.p-long{
+    text-align: center;
+    color: #265077;
+    font-size: 22px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.about-picture img{
+    width: 90%;
+    border-radius: 20px;  /*cong 4 canh*/
+    border: 4px solid #aad4fc;
+    box-shadow: 0px 5px 15px 5px #265077;  /*x-y-đọ mờ-độ phóng rộng*/
+    /*filter: brightness(65%) blur(2px); /*độ sáng, độ mờ*/
+    margin-top: 50px;
+}
+
+.picture-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #c2e1fd;
+    transform: translate(-65% , 200%);
+    opacity: 0;
+}
+
+.about-picture:hover img,
+.about-picture:active img{
+    filter: brightness(65%) blur(2px);
+    transform: all .7s;
+}
+
+.about-picture:hover .picture-title,
+.about-picture:active .picture-title{
+    transform: translate(-65%, 20%);
+    opacity: 1;
+    transition: all .7s;
+}
+
+
 .btn{
     text-decoration: none; /*nó chịu ảnh hưởng của class row và heading main box nên cho về none rồi xử lí*/
     font-size: 25px;
@@ -73,7 +133,7 @@ h1{
     padding: 10px 20px;
     background-color: #e67e22;
     border-radius: 30px;  /*tạo góc tròn cho botton*/
-    margin: 10px;
+    margin: 10px;       
     width: 190px;
     display: inline-block ;  /*thẻ a mặc định hk cho chỉnh wight và height nên chuyển về block*/
     text-align: center;
@@ -86,7 +146,7 @@ h1{
 
 /* =============================================================== */
 header{
-    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("./background.jpg"); /*hòa trộn màu*/
+    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("/img/background.jpg"); /*hòa trộn màu*/
     background-size: cover;  /*bao trùm những đoạn html đã code*/
     background-position: center;  /*căng giữa*/
     height: 100vh;
@@ -104,9 +164,8 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -55%);  /*lấy điểm gốc chính là chính giữa*/
+    transform: translate(-45%, -65%);  /*lấy điểm gốc chính là chính giữa*/
     width: 1140px;
-    font-family: 'Patua One', cursive;
 }
 
 .column {
@@ -114,12 +173,48 @@ header{
     width: 25%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-  }
+}
   
   /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
     background: center;
-  }
+}
+
+.about-picture{
+      position: relative;
+}
+
+.row{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+/* ---------------------------product section---------------------*/
+
+.product-section{
+    background-color: #f4f4f4;
+    margin-top: 80px;
+}
+
+.product-section h2{
+    margin-bottom: 40px;
+}
+
+.product-box{
+    background-color: #eeefff;
+}
+
+.product-box h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #265077;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
