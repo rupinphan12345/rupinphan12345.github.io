@@ -146,7 +146,7 @@ h2::after{
 
 /* =============================================================== */
 header{
-    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("./background.jpg"); /*hòa trộn màu*/
+    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("/img/background.jpg"); /*hòa trộn màu*/
     background-size: cover;  /*bao trùm những đoạn html đã code*/
     background-position: center;  /*căng giữa*/
     height: 100vh;
@@ -188,8 +188,8 @@ header{
 }
 
 .row{
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* ---------------------------product section---------------------*/
@@ -203,8 +203,18 @@ header{
     margin-bottom: 40px;
 }
 
-.product-box{
-    background-color: #eeefff;
+/* .product-box{
+    background-color: #d4d7ff;
+    height: 20%;
+    width: 25%;
+    margin-left: 100px;
+} */
+
+.product-section .row .span_1_of_3{
+    background-color: #d4d7ff;
+    height: 20%;
+    width: 25%;
+    margin-left: 7%;
 }
 
 .product-box h3{
@@ -217,4 +227,240 @@ header{
     border-top-left-radius: 15px;
 }
 
+.product_price{
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+}
 
+.product_price span{
+    font-size: 80%;
+    font-weight: 80;
+}
+
+.product-box ul li{
+    margin-top: 30px;
+    margin-left: 15%;
+    list-style: none;
+    font-size: 110%;
+}
+
+.product-box .btn{
+    margin-top: 75px;
+    width: 65%;
+    margin-left: 10%;
+}
+
+.product-box ul li i{
+    color: #0c3357;
+    margin-right: 10px;
+}
+
+
+.testimonials-section{
+    margin-top: 100px;
+    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonials-section h2{
+    padding-top: 75px;;
+    margin-bottom: 5%;
+}
+
+.content blockquote{
+    width: 200px;
+    line-height: 150%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.content blockquote p{
+    height: 250px;
+    text-align: left;
+}
+
+
+.content cite{
+    display: block;
+    color: #6b95bd;
+}
+
+blockquote::before{
+    display: block;
+    content: '\201C';
+    font-size: 300%;
+    color: #6b95bd;
+    position: absolute;
+}
+
+.content blockquote cite img{
+    border-radius: 90px;
+    vertical-align: middle; /*ten tac gia nam giuaa anh*/
+}
+
+.content blockquote cite{
+    margin-top: 20px;
+}
+
+.sponsors-section{
+    background-color: #f4f4f4;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sponsors-section h2{
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+
+.logo-clb{
+    width: 140px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.sponsors-showcase li figure:hover,
+.sponsors-showcase li figure:active{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+figcaption{
+    color: #265077;
+    font-size: 120%;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*-----------------------------*/
+
+/*contact-form*/
+
+.contact-section{
+    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: #494949;
+    color: white;
+    padding: 20px;
+}
+
+.information{
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    margin-top: 70px;
+    word-spacing: 1px;
+    font-size: 95%;
+}
+
+.information .small-icon{
+    color: #427db4;
+}
+
+.information .small-icon:hover,
+.information .small-icon:active{
+    transform: scale(1.3);
+}
+
+.social-icons{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.social-icons li{
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: white;
+}
+
+.social-icons li i{
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.social-icons li i:hover,
+.social-icons li i:active{
+    transform: scale(1.3);
+    color: #e67e22;
+}
+
+/*form*/
+
+form{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 40%;
+    width: 60%;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+form .row{
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 150%;
+    color: white;
+}
+
+input, textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgba(48,47,47,0.3);
+    border: 1px solid rgba(48,47,47,0.7);
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=text],input[type=email], textarea{
+    width:80% ;
+    font-size: 100%;
+    transition: all .3s;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus{
+    background-color: rgba(48,47,47,0.5);
+    color: white;
+
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+input{
+    height: 50px;
+}
+
+form .row:last-child{ /*phan tu con cuoi cua row*/
+    text-align: center;
+}
+
+input[type=submit]{
+    font-weight: 700;
+    font-size: 100%;
+    border-radius: 5px;;
+    width: 70%;
+}
