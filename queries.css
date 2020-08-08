@@ -1,0 +1,27 @@
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .logo{
+        width: 150px;
+        margin-left: 40px;
+    }
+    .main-nav{
+        margin-right: 5px;
+    }
+    .main-nav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-25%,-65%);
+    }
+    .product-section .btn{
+        width: 80%;
+    }
+    .product-box{
+        width: 90%;
+    }
+}
