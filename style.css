@@ -146,7 +146,7 @@ h2::after{
 
 /* =============================================================== */
 header{
-    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("/img/background.jpg"); /*hòa trộn màu*/
+    background-image: linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url("./background.jpg"); /*hòa trộn màu*/
     background-size: cover;  /*bao trùm những đoạn html đã code*/
     background-position: center;  /*căng giữa*/
     height: 100vh;
@@ -260,7 +260,7 @@ header{
 
 .testimonials-section{
     margin-top: 100px;
-    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(/img/background.jpg);
+    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(./background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -349,7 +349,7 @@ figcaption{
 /*contact-form*/
 
 .contact-section{
-    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(/img/background.jpg);
+    background-image:linear-gradient(45deg,rgba(2, 33, 64,0.8) 50%,rgba(45, 95, 93,0.85)), url(./background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment:fixed ;
