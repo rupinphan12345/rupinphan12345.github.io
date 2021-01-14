@@ -1,252 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Dinh Nhat
-    </title>
-    <link href="/redirect?Id=HhwCEYIrCJMyzQaOUKiwNn9%2fWCbkaR3O32XUy4zYquBiLHBEihYvtMuNlHWJcI13DJaARJd53%2bUZSjsGlpwlkA%3d%3d" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./grid.css"> 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./queries.css">
-    <script src="https://kit.fontawesome.com/f118b23bdf.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <a href="#"><img class="logo" src="./logo.png" alt="logo"></a>
-        <ul class="main-nav">
-            <li><a href="#">How Client Think</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <title>The Band</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <body>
+        <div class="main">
 
-        <div class="clearfix"></div>
+            <!-- Navigation (Stays on Top) -->
+            <div class="w3-top w3-bar w3-black">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#members" class="w3-bar-item w3-button">Members</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
 
-        <div class="row">
-            <div class="heading-main-box">
-                <h1>
-                    Phan Dinh Nhat <br> Industrial University  <br> Of Ho Chi Minh City 
-                </h1>
-                <a href="#" class="btn">Tell Me More</a>
-                <a href="#" class="btn">Join Us</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="about-section">
-        <div class="row">
-            <h2>About Us</h2>
-            <p class="p-long">
-                  voluptatum modi ipsum, neque, distinctio obcaecati deleniti. Rerum at tempora sequi labore, nesciunt sapiente ducimus! Nemo ipsa quibusdam aliquid reiciendis, architecto aspernatur, numquam eligendi, tenetur perspiciatis ea recusandae!
-            </p>
-        </div>
-       <div class="row">
-            <div class="col span_1_of_4 about-picture">
-                <img src="./image1.jpg" alt="picture 1" width="100%" height="100%">
-                
-                <div class="picture-title" style="text-align: center;">
-                    Picture 1
-                </div>
-            </div>
-            <div class="col span_1_of_4 about-picture">
-                <img src="./image2.jpg" alt="picture 2 " width="100%">
-                <div class="picture-title" style="text-align: center;">
-                    Picture 2
-                </div>
-            </div>
-            <div class="col span_1_of_4 about-picture">
-                <img src="./image3.jpg" alt="picture 3" width="100%">
-                <div class="picture-title" style="text-align: center;">
-                    Picture 3
-                </div>
-            </div>
-            <div class="col span_1_of_4 about-picture">
-                <img src="./image4.jpg" alt="picture 4" width="100%">
-                <p class="picture-title"">
-                    Picture 4
-                </p>
-            </div>
-       </div>
-    </section>
-    <section class="product-section">
-            <h2> Products</h2>
-            <div class="row">
-                <div class="col span_1_of_3 product-box">
-                    <h3>Pronunciation class</h3>
-                    <p class="product_price">19$ <span> /month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Native voices</li>
-                        <li><i class="fas fa-check"></i>Master IPA</li>
-                    </ul>
-                    <a href="#" class="btn"> Join us</a>
-                </div>
-                <div class="col span_1_of_3 product-box">
-                    <h3>Speaking class</h3>
-                    <p class="product_price">25$ <span> /month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Native Speaking </li>
-                        <li><i class="fas fa-check"></i>Speaking naturally</li>
-                    </ul>
-                    <a href="#" class="btn"> Join us</a>
-                </div>
-                <div class="col span_1_of_3 product-box">
-                    <h3>Listening class</h3>
-                    <p class="product_price">25$ <span> /month</span></p>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Native speech</li>
-                        <li><i class="fas fa-check"></i>Hearing English clearly</li>
-                    </ul>
-                    <a href="#" class="btn"> Join us</a>
-                </div>
+            <!-- Start Content -->
+            <div id="home" class="w3-content">
             
+                <!-- Slides -->
+                <img class="slides" src="https://www.w3schools.com/w3css/img_la.jpg" width="100%">
+                <img class="slides" src="https://www.w3schools.com/w3css/img_ny.jpg" width="100%">
+                <img class="slides" src="https://www.w3schools.com/w3css/img_ch.jpg" width="100%">
+                <script>
+                w3.slideshow(".slides", 5000);
+                </script>
             </div>
-        </section>
-    <section class="testimonials-section">
-        <h2> TESTIMONIALS</h2>
-        <div class="row">
-            <div class="col span_1_of_3 content">
-                <blockquote>
-                       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates neque enim incidunt perspiciatis id repellat similique eveniet necessitatibus quisquam!0</p>
-                    <cite>
-                        <img src="./image1.jpg" width="20%" alt="person1">
-                        Nguyen Van A
-                    </cite>
-                </blockquote>
-            </div>
-            <div class="col span_1_of_3 content">
-                <blockquote>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates neque enim incidunt perspiciatis id repellat similique eveniet necessitatibus quisquam!0</p>                <cite>
-                    <img src="./image2.jpg" width="20%" alt="person2">
-                    Nguyen Van B
-                </cite>
-            </blockquote>
-            </div>
-            <div class="col span_1_of_3 content">
-                <blockquote>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates neque enim incidunt perspiciatis id repellat similique eveniet necessitatibus quisquam!0</p>                <cite>
-                    <img src="./image3.jpg" width="20%" alt="person3">
-                    Nguyen Van C
-                </cite>
-            </blockquote>
-            </div>
-        </div>
-    </section>
-    <section class="sponsors-section">
-        <h2>Sponsors</h2>
-        <div class="row">
-            <ul class="sponsors-showcase clearfix">
-                <li>
-                    <figure>
-                        <img class="logo-clb" src="./FC-Bayern-Munich-Logo.png" alt="bayern">
-                        <figcaption>
-                            Bayern Munich
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img  class="logo-clb"src="./Liverpool_FC_logo.png" alt="liver">
-                        <figcaption>
-                            Liverpool
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="logo-clb" src="./mu.png" alt="mu">
-                        <figcaption>
-                            Machester United
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="sponsors-showcase clearfix">
-                <li>
-                    <figure>
-                        <img class="logo-clb" src="./1200px-FC_Barcelona_logo.svg.png" alt="barce">
-                        <figcaption>
-                            Barcelona
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="logo-clb" src="./1200px-Logo_Real_Madrid.svg.png" alt="real">
-                        <figcaption>
-                            Real Madric
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="logo-clb" src="./1200px-Manchester_City_FC_logo.svg.png" alt="mc">
-                        <figcaption>
-                            Manchester City
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="contact-section">
-        <div class="row">
-            <div class="col span_1_of_3">
-                <ul class="information">
-                    <li><i class="fas fa-map-marker-alt small-icon"></i>Cat Tien - Phu Cat -Binh Dinh</li>
-                    <li><i class="fas fa-envelope small-icon"></i>rupinphan12345@gmail.com</li>
-                    <li><i class="fas fa-phone-square-alt  small-icon"></i>0345826324</li>
-                </ul>
-                <ul class="social-icons">
-                    <li><i class="fab fa-twitter-square"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-instagram-square"></i></li>
-                    <li><i class="fab fa-google-plus-square"></i></li>
-                </ul>
-            </div>
-            <div class="col span_2_of_3">
-                <form>
-                    <div class="row">
-                        <div class="col span_1_of_3">
-                            <label >Name</label>
-                            
-                        </div>
-                        <div class="col span_2_of_3">
-                            <input type="text" placeholder="Your Name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span_1_of_3">
-                            <label >Email</label>
-                            
-                        </div>
-                        <div class="col span_2_of_3">
-                            <input type="text" placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span_1_of_3">
-                            <label >Message</label>
-                            
-                        </div>
-                        <div class="col span_2_of_3">
-                            <textarea type="text" placeholder="Your Masseger"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <input type="submit" class="btn" value="Sent it">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <footer>
-            <p>
-                Copyright &copy; 2020 by Dinh Nhat Phan
-            </p>
-        </footer>
-    </section>
 
-</body>
-</html>
+            <!-- Image -->
+            <!-- <img src="https://www.w3schools.com/w3css/img_la.jpg" alt="The Band" style="width:100%; height: 100%;"> -->
+
+            <!-- About -->
+            <div id="about" class="w3-container w3-padding-32">
+                <h1 class="w3-center">The Band</h1>
+                <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <!-- Members -->
+            <div id="members" class="w3-container w3-padding-32">
+                <h2 class="w3-center">Band Members</h2>
+                <div class="w3-row w3-center">
+                
+                    <div class="w3-third">
+                        <a href="https://www.facebook.com/baobino.3/">Văn Bảo</a>
+                        <br>
+                        <img src="https://b.f8.photo.talk.zdn.vn/4993680078946882027/c3be8d326405945bcd14.jpg" alt="Name1" style="width:61%">
+                    </div>
+                    
+                    <div class="w3-third">
+                        <a href="https://www.facebook.com/profile.php?id=100016726364383">Đình Nhật</a>
+                        <br>
+                        <img src="https://b.f6.photo.talk.zdn.vn/5252332637863040824/e3c202c597f267ac3ee3.jpg" alt="Name2" style="width:65%; ">
+                    </div>
+                    
+                    <div class="w3-third">
+                        <a href="https://b.f2.photo.talk.zdn.vn/470777059376952523/6bcd946a755d8503dc4c.jpg">Trung Kiên</a>
+                        <br>
+                        <img src="https://b-f10-zpc.zdn.vn/1503220970543792636/82628a0d193ae964b02b.jpg" alt="Name3" style="width:63%;">
+                    </div>
+                
+                </div>
+            </div>
+
+
+            <!-- Contact -->
+            <div id="contact" class="w3-container w3-center w3-padding-32">
+                <h2 class="w3-wide">CONTACT</h2>
+                Industrial University Of Ho Chi Minh City<br>
+                Phone: xxxx<br>
+                Email: mail@mail.com<br>
+                <br>
+                <img src="map.jpg" class="w3-image" style="width:100%">
+            </div>
+
+
+        <!-- End Content -->
+        </div>
+
+    </body>
+</html> 
